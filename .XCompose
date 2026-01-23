@@ -1,0 +1,226 @@
+#---
+#title: Extends X11 Compose Key Base at /usr/share/X11/locale/en_US.UTF-8/Compose
+#date: 2007-11-14
+#lastmod: 2024-7-21T0:45:21+0100
+#filename: $HOME/.XCompose
+#refs:
+#- https://cgit.freedesktop.org/xorg/lib/libX11/plain/nls/en_US.UTF-8/Compose.pre
+#- https://wiki.debian.org/XCompose
+#- https://unicode-table.com/en/search/
+#---
+
+
+# See also .Xmodmap
+# # Right Alt is AltGR Compose Key
+# xmodmap -e "keysym Alt_R = Multi_key"
+
+
+# grab the defaults, overwrite if necessary
+include "%L"
+
+# Some Greek
+## miniscule
+<Multi_key> <a> <l>     : "α"  # Greek Small Letter Alpha        U+0251
+<Multi_key> <b> <e>     : "β"  # Greek Small Letter Beta         U+03B2
+<Multi_key> <g> <a>     : "γ"  # Greek Small Letter Gamma        U+03B3
+<Multi_key> <d> <e>     : "δ"  # Greek Small Letter Delta        U+03B4
+<Multi_key> <e> <p>     : "ε"  # Greek Small Letter Epsilon      U+03B5
+<Multi_key> <z> <e>     : "ζ"  # Greek Small Letter Zeta         U+03B6
+<Multi_key> <e> <t>     : "η"  # Greek Small Letter Eta          U+03B7
+<Multi_key> <t> <h> <e> : "θ"  # Greek Small Letter Theta        U+03B8
+<Multi_key> <i> <o>     : "ι"  # Greek Small Letter Iota         U+03B9
+<Multi_key> <k> <a>     : "κ"  # Greek Small Letter Kappa        U+03BA
+<Multi_key> <l> <a>     : "λ"  # Greek Small Letter Lamda        U+03BB
+<Multi_key> <m> <u>     : "μ"  # Greek Small Letter Mu           U+03BC
+<Multi_key> <n> <u>     : "ν"  # Greek Small Letter Nu           U+03BD
+<Multi_key> <x> <i>     : "ξ"  # Greek Small Letter Xi           U+03BE
+<Multi_key> <o> <m> <i> : "ο"  # Greek Small Letter Omicron      U+03BF
+<Multi_key> <p> <i>     : "π"  # Greek Small Letter Pi           U+03C0
+<Multi_key> <r> <h>     : "ρ"  # Greek Small Letter Rho          U+03C1
+<Multi_key> <s> <f>     : "ς"  # Greek Small Letter Final Sigma  U+03C2
+<Multi_key> <s> <i>     : "σ"  # Greek Small Letter Sigma        U+03C3
+<Multi_key> <t> <a>     : "τ"  # Greek Small Letter Tau          U+03C4
+<Multi_key> <y> <p>     : "υ"  # Greek Small Letter Ypsilon      U+03C5
+<Multi_key> <p> <h>     : "φ"  # Greek Small Letter Phi          U+03C6
+<Multi_key> <c> <h>     : "χ"  # Greek Small Letter Chi          U+03C7
+<Multi_key> <p> <s>     : "ψ"  # Greek Small Letter Psi          U+03C8
+<Multi_key> <o> <m> <e> : "ω"  # Greek Small Letter Omega        U+03C9
+## majiscule
+<Multi_key> <A> <L>     : "A"  # Greek Capital Letter Alpha      U+0391
+<Multi_key> <B> <E>     : "Β"  # Greek Capital Letter Beta       U+0392
+<Multi_key> <G> <A>     : "Γ"  # Greek Capital Letter Gamma      U+0393
+<Multi_key> <D> <E>     : "Δ"  # Greek Capital Letter Delta      U+0394
+<Multi_key> <E> <P>     : "Ε"  # Greek Capital Letter Epsilon    U+0395
+<Multi_key> <Z> <E>     : "Ζ"  # Greek Capital Letter Zeta       U+0396
+<Multi_key> <E> <T>     : "Η"  # Greek Capital Letter Eta        U+0397
+<Multi_key> <T> <H> <E> : "Θ"  # Greek Capital Letter Theta      U+0398
+<Multi_key> <I> <O>     : "Ι"  # Greek Capital Letter Iota       U+0399
+<Multi_key> <K> <A>     : "Κ"  # Greek Capital Letter Kappa      U+039A
+<Multi_key> <L> <A>     : "Λ"  # Greek Capital Letter Lamda      U+039B
+<Multi_key> <M> <U>     : "Μ"  # Greek Capital Letter Mu         U+039C
+<Multi_key> <N> <U>     : "Ν"  # Greek Capital Letter Nu         U+039D
+<Multi_key> <X> <I>     : "Ξ"  # Greek Capital Letter Xi         U+039E
+<Multi_key> <O> <M> <I> : "Ο"  # Greek Capital Letter Omicron    U+039F
+<Multi_key> <P> <I>     : "Π"  # Greek Capital Letter Pi         U+03A0
+<Multi_key> <R> <H>     : "Ρ"  # Greek Capital Letter Rho        U+03A1
+<Multi_key> <S> <I>     : "Σ"  # Greek Capital Letter Sigma      U+03A3
+<Multi_key> <T> <A>     : "Τ"  # Greek Capital Letter Tau        U+03A4
+<Multi_key> <Y> <P>     : "Υ"  # Greek Capital Letter Ypsilon    U+03A5
+<Multi_key> <P> <H>     : "Φ"  # Greek Capital Letter Phi        U+03A6
+<Multi_key> <C> <H>     : "Χ"  # Greek Capital Letter Chi        U+03A7
+<Multi_key> <P> <S>     : "Ψ"  # Greek Capital Letter Psi        U+03A8
+<Multi_key> <O> <M> <E> : "Ω"  # Greek Capital Letter Omega      U+03A9
+
+# Some Old English
+<Multi_key> <minus> <minus> <A> : "Ǣ"  # Latin Capital Letter Ae with Macron U+01E2
+<Multi_key> <L> <A> <E>         : "Ǣ"  # Latin Capital Letter Ae with Macron U+01E2
+<Multi_key> <minus> <minus> <a> : "ǣ"  # Latin Small Letter Ae with Macron   U+01E3
+<Multi_key> <l> <a> <e>         : "ǣ"  # Latin Small Letter Ae with Macron   U+01E3
+<Multi_key> <d> <h>             : "ð"  # Latin Small Letter Eth              U+00F0 
+<Multi_key> <D> <H>             : "Ð"  # Latin Capital Letter Eth            U+00D0
+<Multi_key> <t> <h> <o>         : "þ"  # Latin Small Letter thorn            U+00FE
+<Multi_key> <T> <H> <O>         : "Þ"  # Latin Capital Letter Thorn          U+00DE
+<Multi_key> <w> <y>             : "ƿ"  # Latin Small Letter Wynn             U+01BF
+<Multi_key> <W> <Y>             : "Ƿ"  # Latin Capital Letter Wynn           U+01F7
+<Multi_key> <g> <h>             : "ȝ"  # Latin Small Letter Yogh             U+021D
+<Multi_key> <G> <H>             : "Ȝ"  # Latin Capital Letter Yogh           U+021C
+## modern OE conventions
+<Multi_key> <c> <period>	: "ċ"  # Latin Small Letter C with dot       U+010B
+<Multi_key> <period> <c>	: "ċ"  # Latin Small Letter C with dot       U+010B
+<Multi_key> <g> <period>	: "ġ"  # Latin Small Letter G with dot       U+0121
+<Multi_key> <period> <g>	: "ġ"  # Latin Small Letter G with dot       U+0121
+<Multi_key> <y> <period>	: "ẏ"  # Latin Small Letter Y with dot       U+1E8F
+<Multi_key> <period> <y>	: "ẏ"  # Latin Small Letter Y with dot       U+1E8F
+# ȳ Ȳ override system default for ¥
+<Multi_key> <minus> <y>	: "ȳ"  # Latin Small Letter Y with macron    U+0233
+<Multi_key> <y> <minus>	: "ȳ"  # Latin Small Letter Y with macron    U+0233
+<Multi_key> <minus> <Y>	: "Ȳ"  # Latin Capital Letter Y with macron  U+0232
+<Multi_key> <Y> <minus>	: "Ȳ"  # Latin Capital Letter Y with macron  U+0232
+
+
+# Some Phonetics
+## Anglo-US English --  incomplete & someoverlap w/ Greek... θ, ɑ, etc.
+### '0x3a' (and 'colon') is the keysym reported by `xev` for the ':' char.
+<Multi_key> <t> <colon> : "ː"  # Modifier Letter Triangular Colon     U+02D0
+<Multi_key> <s> <c>     : "ə"  # Latin Small Letter Schwa             U+0259
+<Multi_key> <e> <z>     : "ʒ"  # Latin Small Capital Ezh              U+0292
+<Multi_key> <d> <z>     : "ʤ" # Latin Small Letter Dezh Digraph       U+02A4
+<Multi_key> <j> <t>     : "ʝ"  # Latin Small Letter J with Crossed-Tail   U+029D
+<Multi_key> <l> <t>     : "ɫ"  # Latin Small Letter L with Middle tilde   U+0259
+<Multi_key> <g> <s>     : "ʔ"  # Latin Letter Glottal Stop            U+0294
+<Multi_key> <r> <f>     : "ɾ"  # Latin Small Letter R with Fishhook   U+0272
+<Multi_key> <r> <t>     : "ɹ"  # Latin Small Letter Turned R          U+0259
+<Multi_key> <v> <t>     : "ʌ"  # Latin Small Letter Turned V          U+028C
+<Multi_key> <e> <n> <g> : "ŋ"  # Latin Small Letter Eng               U+014B
+<Multi_key> <n> <n>     : "ñ"  # ñ Latin Small Letter N with Tilde    U+00F1
+<Multi_key> <e> <s> <h> : "ʃ"  # Latin Small Letter Esh               U+0283
+<Multi_key> <s> <h>     : "ʰ"  # Modifier Letter Small H              U+02B0
+### ...with 'sound-alike' keys 
+<Multi_key> <u> <h>     : "ʊ"  # Latin Small Letter Upsilon           U+028A
+<Multi_key> <a> <w>     : "ɔ"  # Latin Small Letter Open O            U+0259
+
+## quick fadas -- also <vowel> <'>
+## mirrors the "double tap" <n><n> for ñ
+<Multi_key> <a> <a> : "á"  # Latin Small Letter A with Acute    U+00E1
+<Multi_key> <e> <e> : "é"  # Latin Small Letter E with Acute    U+00E9
+<Multi_key> <i> <i> : "í"  # Latin Small Letter I with Acute    U+00ED
+<Multi_key> <o> <o> : "ó"  # Latin Small Letter O with Acute    U+00F3
+<Multi_key> <u> <u> : "ú"  # Latin Small Letter U with Acute    U+00F3
+<Multi_key> <A> <A> : "Á"  # Latin Capital Letter A with Acute  U+00C1
+<Multi_key> <E> <E> : "É"  # Latin Capital Letter E with Acute  U+00C9
+<Multi_key> <I> <i> : "Í"  # Latin Capital Letter I with Acute  U+00CD
+<Multi_key> <O> <O> : "Ó"  # Latin Capital Letter O with Acute  U+00D3
+<Multi_key> <U> <U> : "Ú"  # Latin Capital Letter U with Acute  U+00DA
+
+
+## French 
+  ### e.g. jour -- [ʒuːʁ]
+<Multi_key> <r> <i> : "ʁ"  # Latin Letter Small Capital Inverted R    U+0281
+  ### e.g. lui-- [lɥi]
+<Multi_key> <h> <t> : "ɥ"  # Latin Small Letter Turned H              U+0265
+<Multi_key> <c> <c> : "ç"  # Latin Small Letter c with cedilla        U+0231
+
+## Hindi
+  ### https://ipachart.co/phonetic-hindi-translation/
+  ### retroflex
+<Multi_key> <d> <r>     : "ɖ"  # Latin Small Letter D with Tail       U+0256
+<Multi_key> <s> <r>     : "ʂ"  # Latin Small Letter S with Hook       U+0288
+<Multi_key> <t> <r> : "ʈ"  # Latin Small Letter T with Retroflex Hook U+0288
+
+## Spanish
+
+<Multi_key> <i> <g>     : "ɣ"  # Latin Small Letter Gamma             U+0263
+<Multi_key> <y> <t>     : "ʎ"  # Latin Small Letter Turned Y          U+028E
+
+
+# Some maths and logic
+<Multi_key> <i> <n> <t> : "∫"  # ∫ Integral                           U+222B
+<Multi_key> <v> <d> <i> : "∩"  # Intersection                         U+2229
+<Multi_key> <v> <d> <u> : "∪"  # Union                                U+222B
+<Multi_key> <e> <o>     : "∈"  # Element Of                           U+2208
+<Multi_key> <n> <e> <o> : "∉"  # Not Element Of                       U+222B
+<Multi_key> <e> <s>     : "∅"  # Empty Set                            U+2205
+<Multi_key> <f> <a>     : "∀"  # For All                              U+2200
+<Multi_key> <t> <x>     : "∃"  # There Exists                         U+2203
+<Multi_key> <n> <x>     : "∄"  # There Does Not Exist                 U+2204
+<Multi_key> <t> <f>     : "∴"  # Therefore                            U+2234
+<Multi_key> <b> <c>     : "∵"  # Because                              U+2235
+#defaults
+<Multi_key> <colon> <period>		: "∴"	# therefore
+<Multi_key> <period> <colon>		: "∵"	# because
+
+# Prop. logic
+<Multi_key> <T> <T>                          : "⟙"   # True       U+27D9
+<Multi_key> <T> <exclam>                     : "⟘"   # False      U+27D8
+<Multi_key> <backslash> <slash>              : "∨"   # Logic or    U+2228
+<Multi_key> <slash> <backslash>              : "∧"   # Logic and   U+2227
+<Multi_key> <backslash> <underscore> <slash> : "⊻"   # Xor         U+22BB
+
+# Other symbols
+<Multi_key> <l> <l> <b> : "【" # Left Black Lenticular Bracket        U+3010
+<Multi_key> <r> <l> <b> : "】" # Right Black Lenticular Bracket       U+3011
+<Multi_key> <l> <w> <a> : "←"  # Leftwards Arrow                      U+2190
+<Multi_key> <u> <w> <a> : "↑"  # Upwards Arrow                        U+2191
+<Multi_key> <r> <w> <a> : "→"  # Rightwards Arrow                     U+2192
+<Multi_key> <d> <w> <a> : "↓"  # Downwards Arrow                      U+2193
+<Multi_key> <c> <h> <e> : "✓"  # Check Mark                           U+2705
+<Multi_key> <x> <h> <e> : "✗"  # Ballot X                             U+2717
+<Multi_key> <m> <d>     : "·"  # Middle Dot                           U+00B7
+<Multi_key> <a> <e> <q> : "≈"  # Almost Equal To                      U+2248
+<Multi_key> <n> <e> <q> : "≠"  # Not Equal To                         U+2260
+<Multi_key> <r> <o>     : "®"  # Registered Sign                      U+00AE
+<Multi_key> <c> <o>     : "©"  # Copyright Sign                       U+00A9
+<Multi_key> <0> <0>     : "°"  # Degree Sign                          U+00B0
+<Multi_key> <t> <7>     : "⁊"  # TIRONIAN ET SIGN                     U+204A
+<Multi_key> <s><a><w>   : "ﷺ" # Arabic Ligature Sallallahou Alayhe Wasallam  U+FDFA
+
+# Quotation marks
+## German
+<Multi_key> <l> <g> <q> : "„"  # Left Double Low-9 Quotation Mark                  U+201E
+<Multi_key> <r> <g> <q> : """  # Right Double Quotation Mark                       U+201D
+<Multi_key> <l> <g> <s> : "‚"  # Single Low-9 Quotation Mark                       U+201A
+<Multi_key> <r> <g> <s> : "'"  # Right Single Quotation Mark                       U+2019
+## French
+<Multi_key> <less> <less>       : "«"  # Left-Pointing Double Angle Quotation Mark  U+00AB
+<Multi_key> <greater> <greater> : "»"  # Right-Pointing Double Angle Quotation Mark U+00BB
+<Multi_key> <period> <less>     : "‹"  # Single Left-Pointing Angle Quotation Mark  U+2039
+<Multi_key> <period> <greater>  : "›"  # Single Right-Pointing Angle Quotation Mark U+203A
+
+
+#########################################
+# Defaults I use a lot, for reference
+
+## Some ligatures
+<Multi_key> <a> <e>			: "æ"	ae      # LATIN SMALL LETTER AE
+<Multi_key> <A> <E>			: "Æ"	AE      # LATIN CAPITAL LETTER AE
+<Multi_key> <o> <e>			: "œ"	oe      # LATIN SMALL LIGATURE OE
+<Multi_key> <O> <E>			: "Œ"	OE      # LATIN CAPITAL LIGATURE OE
+<Multi_key> <s> <s>			: "ß"	ssharp  # LATIN SMALL LETTER SHARP S
+<Multi_key> <S> <S>			: "ẞ"	U1e9e   # LATIN CAPITAL LETTER SHARP S
+<Multi_key> <s> <o>			: "§"	section # SECTION SIGN
+<Multi_key> <o> <s>			: "§"	section # SECTION SIGN
+
+
+## Dashes
+<Multi_key> <minus> <minus> <period>	: "–"	U2013 # EN DASH
+<Multi_key> <minus> <minus> <minus>	  : "—"	U2014 # EM DASH

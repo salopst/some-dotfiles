@@ -1,0 +1,6 @@
+# ignore every fucking thing since this sits in ~
+*
+
+# except
+!/.XCompose
+!/.jjignore
