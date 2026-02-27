@@ -197,7 +197,7 @@ include "%L"
 # Quotation marks
 ## German
 <Multi_key> <l> <g> <q> : "„"  # Left Double Low-9 Quotation Mark                  U+201E
-<Multi_key> <r> <g> <q> : """  # Right Double Quotation Mark                       U+201D
+<Multi_key> <r> <g> <q> : "”"  # Right Double Quotation Mark                       U+201D
 <Multi_key> <l> <g> <s> : "‚"  # Single Low-9 Quotation Mark                       U+201A
 <Multi_key> <r> <g> <s> : "'"  # Right Single Quotation Mark                       U+2019
 ## French
